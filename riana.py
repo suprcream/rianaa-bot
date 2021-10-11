@@ -21,7 +21,7 @@ async def on_ready():
     DiscordComponents(client)
     time = datetime.datetime.now()
     print("Riana is ready!")
-    channel = client.get_channel(881895025246609439)
+    channel = client.get_channel(channelchannel)
     embed = discord.Embed(
         title = "rianaa is Ready!",
         description = f"Online at {time}",
